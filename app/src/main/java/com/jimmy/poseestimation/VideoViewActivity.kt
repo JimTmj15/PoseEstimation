@@ -2,19 +2,13 @@ package com.jimmy.poseestimation
 
 import android.content.Intent
 import android.net.Uri
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.util.Log
 import android.widget.MediaController
-import com.halilibo.bvpkotlin.BetterVideoPlayer
+import androidx.appcompat.app.AppCompatActivity
 import kotlinx.android.synthetic.main.activity_video_view.*
-import android.R.attr.path
-
 
 
 class VideoViewActivity : AppCompatActivity() {
-
-    lateinit var player: BetterVideoPlayer
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
