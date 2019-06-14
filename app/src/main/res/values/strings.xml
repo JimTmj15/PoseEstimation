@@ -1,4 +1,5 @@
 <resources>
-    <string name="app_name">Posture Estimation</string>
+    <string name="app_name">不请私教</string>
     <string name="camera_error">This device doesn\'t support Camera2 API.</string>
+    <string name="start_posture">Start Exercise</string>
 </resources>
